@@ -1,6 +1,9 @@
 $(document).ready(function(){
-
+    $("#content").on('wheel',function(){
+        $("#content").click();
+    })
     $("#content").click(function(){
+        console.log("success");
         if($("#overlay").hasClass('translate') && $("#content").hasClass('translate')){
             // $("#overlay").removeClass('translate');
             // $("#content").removeClass('translate');
@@ -36,7 +39,7 @@ $(document).ready(function(){
             $("#overlay").addClass('translate');
             $("#content").addClass('translate');
             $("#clip").addClass('translate');
-            // $("#menu").addClass('translate');
+            $("#menu").addClass('translate');
         }
 
     })

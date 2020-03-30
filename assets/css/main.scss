@@ -86,7 +86,7 @@ body{
             background: map-get($map: $colors, $key: primary) url(../imgs/apple-1853306_1920.jpg);
             right:-30%;
             transition: all 0.3s;
-
+            overflow: hidden;
 
             #pagepiling {
                 height: 100vh;
@@ -304,7 +304,7 @@ body{
                                     // padding:0 2rem;
                                     img{
                                         height:auto;
-                                        width:100%;
+                                        width:15rem;
                                         margin:0 auto;
                                     }
                                 }
@@ -350,7 +350,94 @@ body{
                     }
                     
                 }
+                #section5{
+                    background: url(../imgs/blur-computer-connection-electronics-442150.jpg);
+                    background-size: 100% 100%;
+                    color: map-get($map: $colors, $key: primary);
+                    
+                    .activity{
+                        clear: left;
+                        width: 80%;
+                        min-height:5rem;
+                        padding: .3rem;
+                        background: rgba(51, 51, 51, 0.404);
+                        position: relative;
+                        text-align: center;
+                        margin: 0 auto;
+                        margin-bottom: .7rem;
+                        // margin-top:20px;
+                        .left{
+                            text-align: right;
+                            width: 20%;
+                            float: left;
+                            top:20%;
+                            img{
+                                width:13em;
+                            }
+                        }
+                        .right{
+                            width:80%;
+                            float: left;
+                            text-align: left;
+                            line-height: 5rem;
 
+                            .act{
+                                padding: 0 3rem;
+                                font-size: 1.6rem;
+                                font-weight: 300;
+                            }
+                            // .act:before{
+                            //     content: '';
+                            //     height: 40%;
+                            //     border-right: solid 1px #fff;
+                            //     position: absolute;
+                            //     text-align: center;
+                            //     left: 0;
+                            //     top:30%;
+                                
+                                
+                            //     z-index: 1;
+                            // }
+                            // .act:after{
+                            //     content: '';
+                            //     height: 40%;
+                            //     border-right: solid 1px #fff;
+                            //     position: absolute;
+                            //     text-align: center;
+                            //     right:0;
+                            //     top:30%;
+                                
+                                
+                            //     z-index: 1;
+                            // }
+                        }
+                        // .right:before{
+                        //     content: '';
+                        //     height: 40%;
+                        //     border-right: solid 1px #fff;
+                        //     position: absolute;
+                        //     text-align: center;
+                        //     left: 17rem;
+                        //     top:30%;
+                            
+                            
+                        //     z-index: 1;
+                        // }
+                        
+                    }
+                    // .activity:after{
+                    //     content: '';
+                    //     width: 20%;
+                    //     border-bottom: solid 1px #fff;
+                    //     position: absolute;
+                    //     text-align: center;
+                    //     left: 20%;
+                    //     top:100%;
+                        
+                        
+                    //     z-index: 1;
+                    // }
+                }
 
 
                 .pp-tableCell{
@@ -362,13 +449,16 @@ body{
             
         }
         .clip{
-            clip-path: polygon(100% 68%, 93% 100%, 100% 100%);
+            // clip-path: polygon(0 0, 100% 0, 64% 100%, 0% 100%);
+            clip-path: polygon(94% 100%, 100% 75%, 100% 100%, 100% 100%);
             width:100%;
             height:100%;
             background-color: map-get($map: $colors, $key: third);
             position: absolute;
             z-index: 3;
-            right:-10%;
+            
+            transition: all .3s;
+            transform:translate(10%);
         }
         .overlay.translate{
             transform: translate(-90%);
@@ -379,7 +469,7 @@ body{
             transition: all .3s;
         }
         .clip.translate{
-            right: 0;
+            transform:translate(0%);
             transition: all .3s;
             // transition-delay: .1s;
         }

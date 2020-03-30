@@ -1,0 +1,407 @@
+body, html {
+  height: 100%;
+}
+
+body {
+  margin: 0;
+  overflow: hidden;
+  font-family: "Roboto";
+  font-size: 14px;
+  background-color: #333;
+}
+
+body #main .overlay {
+  -webkit-clip-path: polygon(0 0, 100% 0, 64% 100%, 0% 100%);
+          clip-path: polygon(0 0, 100% 0, 64% 100%, 0% 100%);
+  width: 72vw;
+  height: 100%;
+  position: absolute;
+  z-index: 3;
+  background-image: url(../imgs/coding-computer-data-depth-of-field-577585.jpg);
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  color: rgba(238, 238, 238, 0.925);
+  -webkit-transition: all .3s;
+  transition: all .3s;
+}
+
+body #main .overlay .overlay-wrapper {
+  background: #1fc21cf2;
+  position: relative;
+  height: 100%;
+  z-index: -1;
+}
+
+body #main .overlay .overlay-wrapper span.top {
+  font-family: "Ink Free";
+  position: absolute;
+  top: 20%;
+  padding: 0 4rem;
+  font-size: 2rem;
+}
+
+body #main .overlay .overlay-wrapper .intro {
+  position: absolute;
+  top: 35%;
+  padding: 0 4rem;
+}
+
+body #main .overlay .overlay-wrapper .intro span.welcome {
+  display: block;
+  font-size: 5rem;
+  text-transform: uppercase;
+  max-width: 30vw;
+  font-weight: 600;
+  line-height: .95;
+}
+
+body #main #menu {
+  position: absolute;
+  z-index: 5;
+  padding: 0 4rem;
+  bottom: 5%;
+  -webkit-transition: all .3s;
+  transition: all .3s;
+}
+
+body #main #menu li {
+  float: left;
+  list-style: none;
+  margin-right: 2rem;
+}
+
+body #main #menu li a {
+  color: rgba(238, 238, 238, 0.925);
+  text-decoration: none;
+  font-size: 1.3rem;
+}
+
+body #main .content {
+  width: 100%;
+  height: 100%;
+  z-index: 1;
+  position: absolute;
+  background: rgba(238, 238, 238, 0.925) url(../imgs/apple-1853306_1920.jpg);
+  right: -30%;
+  -webkit-transition: all 0.3s;
+  transition: all 0.3s;
+}
+
+body #main .content #pagepiling {
+  height: 100vh;
+  background-color: #333;
+  position: relative;
+}
+
+body #main .content #pagepiling #section1 {
+  background: url(../imgs/apple-1853306_1920.jpg);
+  color: rgba(238, 238, 238, 0.925);
+}
+
+body #main .content #pagepiling #section1 div {
+  width: 100%;
+}
+
+body #main .content #pagepiling #section1 .left {
+  width: 70%;
+  float: left;
+  padding: 2rem 0 0 0;
+}
+
+body #main .content #pagepiling #section1 .left .text {
+  padding: 1rem 4rem;
+  font-size: 3rem;
+  font-weight: 400;
+}
+
+body #main .content #pagepiling #section1 .left .text1 {
+  padding: 1rem 4rem;
+  font-size: 2.5rem;
+  font-weight: 200;
+}
+
+body #main .content #pagepiling #section1 .left .text1 span.name {
+  color: #1fc21cf2;
+  font-weight: 400;
+}
+
+body #main .content #pagepiling #section1 .left .text2 {
+  padding: 1rem 4rem;
+  font-size: 2rem;
+  font-weight: 200;
+}
+
+body #main .content #pagepiling #section1 .left .text2 span.name {
+  color: #1fc21cf2;
+  font-weight: 400;
+}
+
+body #main .content #pagepiling #section1 .right {
+  width: 30%;
+  float: left;
+  text-align: center;
+}
+
+body #main .content #pagepiling #section1 .right .containimg {
+  width: 60%;
+}
+
+body #main .content #pagepiling #section1 .right .containimg img {
+  width: 100%;
+  height: auto;
+  margin-right: 2rem;
+  border-radius: 50%;
+  border-width: 3px;
+  border-color: #1fc21cf2;
+  border-style: dashed;
+}
+
+body #main .content #pagepiling #section2 {
+  background: url(../imgs/business-computer-connection-contemporary-450035.jpg);
+  background-size: 100% 100%;
+  color: rgba(238, 238, 238, 0.925);
+}
+
+body #main .content #pagepiling #section2 div {
+  width: 100%;
+}
+
+body #main .content #pagepiling #section2 .left {
+  width: 60%;
+  float: left;
+  padding: 2rem 0 0 0;
+}
+
+body #main .content #pagepiling #section2 .left .text {
+  padding: 1rem 4rem;
+  font-size: 2rem;
+  font-weight: 400;
+  display: block;
+  max-width: 80%;
+}
+
+body #main .content #pagepiling #section2 .left .text1 {
+  padding: 0 4rem;
+  font-size: 1.4rem;
+  font-family: "Ink Free";
+}
+
+body #main .content #pagepiling #section2 .right {
+  width: 40%;
+  display: block;
+  float: left;
+}
+
+body #main .content #pagepiling #section2 .right .containimg {
+  width: 50%;
+}
+
+body #main .content #pagepiling #section2 .right .containimg img {
+  width: 100%;
+  height: auto;
+  padding: 0 5rem;
+}
+
+body #main .content #pagepiling #section3 {
+  background: url(../imgs/photo-of-turned-on-laptop-computer-943096.jpg);
+  background-size: 100% 100%;
+  color: rgba(238, 238, 238, 0.925);
+}
+
+body #main .content #pagepiling #section3 div {
+  width: 100%;
+}
+
+body #main .content #pagepiling #section3 .left {
+  width: 30%;
+  display: block;
+  padding: 2rem 0 0 0;
+  float: left;
+}
+
+body #main .content #pagepiling #section3 .left .containimg {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  line-height: 1;
+  margin-top: 25%;
+}
+
+body #main .content #pagepiling #section3 .left .containimg img {
+  width: 40%;
+  height: auto;
+  padding: 0 5rem;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+body #main .content #pagepiling #section3 .right {
+  width: 70%;
+  float: left;
+  padding: 2rem 0 0 0;
+}
+
+body #main .content #pagepiling #section3 .right .skill {
+  margin-bottom: 1rem;
+}
+
+body #main .content #pagepiling #section3 .right .skill .category {
+  font-size: 2rem;
+  display: block;
+  margin-bottom: .4rem;
+}
+
+body #main .content #pagepiling #section3 .right .skill .skills {
+  font-size: 1.5rem;
+  margin-right: 1rem;
+  margin-left: 1rem;
+}
+
+body #main .content #pagepiling #section3 .right .text {
+  padding: 1rem 4rem;
+  font-size: 2rem;
+  font-weight: 400;
+  display: block;
+  max-width: 80%;
+}
+
+body #main .content #pagepiling #section3 .right .text1 {
+  padding: 0 4rem;
+  font-size: 1.4rem;
+  font-family: "Ink Free";
+}
+
+body #main .content #pagepiling #section4 {
+  background: url(../imgs/blur-computer-connection-electronics-442150.jpg);
+  background-size: 100% 100%;
+  color: rgba(238, 238, 238, 0.925);
+}
+
+body #main .content #pagepiling #section4 div {
+  width: 100%;
+}
+
+body #main .content #pagepiling #section4 .left {
+  width: 70%;
+  display: block;
+  padding: 2rem 0 0 0;
+  float: left;
+}
+
+body #main .content #pagepiling #section4 .left .cards-container {
+  padding: 0 3rem;
+}
+
+body #main .content #pagepiling #section4 .left .cards-container .card {
+  float: left;
+  display: block;
+  width: 25%;
+  min-height: 10rem;
+  padding: 2rem 4rem;
+  text-align: center;
+  margin-left: 2rem;
+  margin-right: 2rem;
+  margin-bottom: 50px;
+  background: rgba(51, 51, 51, 0.329);
+  border-radius: 10%;
+}
+
+body #main .content #pagepiling #section4 .left .cards-container .card .imgContain {
+  width: 250px;
+  margin: 0 auto;
+}
+
+body #main .content #pagepiling #section4 .left .cards-container .card .imgContain img {
+  height: auto;
+  width: 100%;
+  margin: 0 auto;
+}
+
+body #main .content #pagepiling #section4 .left .cards-container .card .label {
+  text-align: center;
+}
+
+body #main .content #pagepiling #section4 .left .cards-container .card .label span.date {
+  display: block;
+}
+
+body #main .content #pagepiling #section4 .left .cards-container .card .label span.post {
+  display: block;
+}
+
+body #main .content #pagepiling #section4 .right {
+  width: 30%;
+  display: block;
+  float: left;
+  padding: 2rem 0 0 0;
+}
+
+body #main .content #pagepiling #section4 .right .containimg {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  line-height: 1;
+}
+
+body #main .content #pagepiling #section4 .right .containimg img {
+  width: 70%;
+  height: auto;
+  padding: 0 5rem 0 0;
+  margin-top: 35%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+body #main .content #pagepiling .pp-tableCell {
+  background-color: rgba(51, 51, 51, 0.884);
+}
+
+body #main .clip {
+  -webkit-clip-path: polygon(100% 68%, 93% 100%, 100% 100%);
+          clip-path: polygon(100% 68%, 93% 100%, 100% 100%);
+  width: 100%;
+  height: 100%;
+  background-color: #1fc21cf2;
+  position: absolute;
+  z-index: 3;
+  right: -10%;
+}
+
+body #main .overlay.translate {
+  -webkit-transform: translate(-90%);
+          transform: translate(-90%);
+  -webkit-transition: all .3s;
+  transition: all .3s;
+}
+
+body #main .content.translate {
+  right: 0;
+  -webkit-transition: all .3s;
+  transition: all .3s;
+}
+
+body #main .clip.translate {
+  right: 0;
+  -webkit-transition: all .3s;
+  transition: all .3s;
+}
+
+body #main #pp-nav span {
+  border-color: green !important;
+}
+
+body #main #menu.translate {
+  top: 2%;
+  bottom: 0;
+  right: 0;
+  -webkit-transition: all .3s;
+  transition: all .3s;
+  height: 2rem;
+}
+
+body #main #menu.translate li.active a {
+  color: #1fc21cf2;
+}
+/*# sourceMappingURL=main.css.map */

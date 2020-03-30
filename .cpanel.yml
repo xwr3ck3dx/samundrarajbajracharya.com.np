@@ -1,0 +1,8 @@
+---
+deployment:
+ tasks:
+ - export DEPLOYPATH=/home/samundra/test.samundrarajbajracharya.com.np/
+ - export DEPLOYPATH2=/home/samundra/test.samundrarajbajracharya.com.np/
+
+ - /bin/cp index.html $DEPLOYPATH
+ - /bin/cp -r assets $DEPLOYPATH2

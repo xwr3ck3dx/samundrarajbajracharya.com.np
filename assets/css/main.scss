@@ -1,8 +1,12 @@
 $colors: (
-    primary: rgba(238, 238, 238, 0.925),
-    secondary: #333,
-    third: #1fc21cf2,
-    text: #1fc21cf2
+    // primary: rgba(238, 238, 238, 0.925),
+    // secondary: #333,
+    // third: #1fc21cf2,
+    // text: #1fc21cf2,
+    primary: #def4c6,
+    secondary: #1c7c54,
+    third: #1b512d,
+    text: #73e2a7
 );
 
 body,html{
@@ -87,7 +91,7 @@ body{
             right:-30%;
             transition: all 0.3s;
             overflow: hidden;
-
+            
             #pagepiling {
                 height: 100vh;
                 background-color: #333;
@@ -490,6 +494,14 @@ body{
                 }
                 
             }
+        }
+
+
+        .content .pp-tableCell{
+            opacity:0;
+        }
+        .content.translate .pp-tableCell{
+            opacity:1;
         }
 
     }

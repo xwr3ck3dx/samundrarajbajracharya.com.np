@@ -7,7 +7,7 @@ body {
   overflow: hidden;
   font-family: "Roboto";
   font-size: 14px;
-  background-color: #333;
+  background-color: #1c7c54;
 }
 
 body #main .overlay {
@@ -20,13 +20,13 @@ body #main .overlay {
   background-image: url(../imgs/coding-computer-data-depth-of-field-577585.jpg);
   background-size: 100% 100%;
   background-repeat: no-repeat;
-  color: rgba(238, 238, 238, 0.925);
+  color: #def4c6;
   -webkit-transition: all .3s;
   transition: all .3s;
 }
 
 body #main .overlay .overlay-wrapper {
-  background: #1fc21cf2;
+  background: #1b512d;
   position: relative;
   height: 100%;
   z-index: -1;
@@ -71,7 +71,7 @@ body #main #menu li {
 }
 
 body #main #menu li a {
-  color: rgba(238, 238, 238, 0.925);
+  color: #def4c6;
   text-decoration: none;
   font-size: 1.3rem;
 }
@@ -81,7 +81,7 @@ body #main .content {
   height: 100%;
   z-index: 1;
   position: absolute;
-  background: rgba(238, 238, 238, 0.925) url(../imgs/apple-1853306_1920.jpg);
+  background: #def4c6 url(../imgs/apple-1853306_1920.jpg);
   right: -30%;
   -webkit-transition: all 0.3s;
   transition: all 0.3s;
@@ -96,7 +96,7 @@ body #main .content #pagepiling {
 
 body #main .content #pagepiling #section1 {
   background: url(../imgs/apple-1853306_1920.jpg);
-  color: rgba(238, 238, 238, 0.925);
+  color: #def4c6;
 }
 
 body #main .content #pagepiling #section1 div {
@@ -122,7 +122,7 @@ body #main .content #pagepiling #section1 .left .text1 {
 }
 
 body #main .content #pagepiling #section1 .left .text1 span.name {
-  color: #1fc21cf2;
+  color: #73e2a7;
   font-weight: 400;
 }
 
@@ -133,7 +133,7 @@ body #main .content #pagepiling #section1 .left .text2 {
 }
 
 body #main .content #pagepiling #section1 .left .text2 span.name {
-  color: #1fc21cf2;
+  color: #73e2a7;
   font-weight: 400;
 }
 
@@ -153,14 +153,14 @@ body #main .content #pagepiling #section1 .right .containimg img {
   margin-right: 2rem;
   border-radius: 50%;
   border-width: 3px;
-  border-color: #1fc21cf2;
+  border-color: #73e2a7;
   border-style: dashed;
 }
 
 body #main .content #pagepiling #section2 {
   background: url(../imgs/business-computer-connection-contemporary-450035.jpg);
   background-size: 100% 100%;
-  color: rgba(238, 238, 238, 0.925);
+  color: #def4c6;
 }
 
 body #main .content #pagepiling #section2 div {
@@ -206,7 +206,7 @@ body #main .content #pagepiling #section2 .right .containimg img {
 body #main .content #pagepiling #section3 {
   background: url(../imgs/photo-of-turned-on-laptop-computer-943096.jpg);
   background-size: 100% 100%;
-  color: rgba(238, 238, 238, 0.925);
+  color: #def4c6;
 }
 
 body #main .content #pagepiling #section3 div {
@@ -276,7 +276,7 @@ body #main .content #pagepiling #section3 .right .text1 {
 body #main .content #pagepiling #section4 {
   background: url(../imgs/blur-computer-connection-electronics-442150.jpg);
   background-size: 100% 100%;
-  color: rgba(238, 238, 238, 0.925);
+  color: #def4c6;
 }
 
 body #main .content #pagepiling #section4 div {
@@ -358,7 +358,7 @@ body #main .content #pagepiling #section4 .right .containimg img {
 body #main .content #pagepiling #section5 {
   background: url(../imgs/blur-computer-connection-electronics-442150.jpg);
   background-size: 100% 100%;
-  color: rgba(238, 238, 238, 0.925);
+  color: #def4c6;
 }
 
 body #main .content #pagepiling #section5 .activity {
@@ -406,7 +406,7 @@ body #main .clip {
           clip-path: polygon(94% 100%, 100% 75%, 100% 100%, 100% 100%);
   width: 100%;
   height: 100%;
-  background-color: #1fc21cf2;
+  background-color: #1b512d;
   position: absolute;
   z-index: 3;
   -webkit-transition: all .3s;
@@ -449,6 +449,14 @@ body #main #menu.translate {
 }
 
 body #main #menu.translate li.active a {
-  color: #1fc21cf2;
+  color: #73e2a7;
+}
+
+body #main .content .pp-tableCell {
+  opacity: 0;
+}
+
+body #main .content.translate .pp-tableCell {
+  opacity: 1;
 }
 /*# sourceMappingURL=main.css.map */

@@ -2,7 +2,5 @@
 deployment:
  tasks:
  - export DEPLOYPATH=/home/samundrawhm/public_html/
-
-
- - cp index.html $DEPLOYPATH
- - cp -r assets $DEPLOYPATH
+ - /bin/cp index.html $DEPLOYPATH
+ - /bin/cp -r assets $DEPLOYPATH

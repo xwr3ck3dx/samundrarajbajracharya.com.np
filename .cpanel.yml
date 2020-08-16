@@ -4,5 +4,5 @@ deployment:
  - export DEPLOYPATH=/home/samundrawhm/public_html/
 
 
- - /bin/cp index.html $DEPLOYPATH
- - /bin/cp -r assets $DEPLOYPATH
+ - cp index.html $DEPLOYPATH
+ - cp -r assets $DEPLOYPATH
